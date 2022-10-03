@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Mak';
+    src: url('./font/Mak-Bold 700.otf');
+}
+.Header{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.dayInfo{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 180px;
+  background-color: #7C8DA5;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 5px rgba(29,37,56,0.27);
+}
+.dayInfo p{
+  font-family:'Syne';
+  color: #E0E1DC;
+  font-size: 27px;
+}
+.dateTime .p__dateTime{
+  margin-top: 20px;
+  font-family: 'Syne';  
+  font-size: 25px;
+  font-weight: 800;
+  color: #1D2538;
+}

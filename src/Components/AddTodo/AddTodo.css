@@ -1,0 +1,32 @@
+.AddTodo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+}
+input{
+    margin-right: 15px;
+    width:250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1D2538;
+    box-shadow: 0px 0px 1px 0px #0000ff;
+    color: #fff;
+    outline: none;
+    padding:2px 10px 2px 10px ;
+    font-family: 'Syne';
+}
+::placeholder{
+    color: #fff;
+    font-family: 'Syne';
+    font-weight: 300;
+}
+.add__btn{
+    background-color: #ffff;
+    border: none;
+    box-shadow: 0px 0px 20px 5px rgba(29,37,56,0.27);
+    width: 50px;
+    color: #1D2538;
+    font-family: 'Syne';
+    border-radius: 5px;
+}
